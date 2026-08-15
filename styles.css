@@ -87,7 +87,7 @@
     min-height:660px; display:flex; align-items:center;
     background-image:
       linear-gradient(100deg, rgba(15,18,9,0.95) 20%, rgba(15,18,9,0.68) 55%, rgba(15,18,9,0.35) 100%),
-      url('hero-bg.jpg');
+      url('images/hero-bg.jpg');
     background-size:cover; background-position:center 42%;
     border-bottom:3px solid var(--orange);
   }
