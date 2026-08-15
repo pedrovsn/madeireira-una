@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://madeireirauna.com.br/sitemap.xml
