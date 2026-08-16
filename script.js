@@ -15,6 +15,11 @@ const io = new IntersectionObserver((entries) => {
           event_category: 'engagement',
           event_label: link.dataset.waLocation || 'unknown'
         });
+        gtag('event', 'conversion', {
+          'send_to': 'AW-18390353422/B-iPCNnn6OEcEI6MmsFE',
+          'value': 1.0,
+          'currency': 'BRL'
+        });
       }
     });
   });
