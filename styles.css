@@ -65,7 +65,7 @@
     background:rgba(23,27,16,0.72);
     backdrop-filter: blur(14px) saturate(140%);
     border:1px solid var(--line);
-    border-radius:100px;
+    border-radius:var(--radius);
   }
   .header-inner img.logo-img{ height:56px; width:auto; }
   .header-cta{
@@ -263,7 +263,8 @@
     position:fixed; bottom:20px; right:20px; z-index:60;
     background:linear-gradient(135deg, var(--orange), var(--coral)); color:#1A1000;
     display:inline-flex; align-items:center; justify-content:center; gap:8px;
-    padding:15px 22px; border-radius:100px;
+    padding:26px 22px; border-radius:var(--radius);
+    border:1px solid transparent;
     text-decoration:none; font-weight:700; font-size:14.5px;
     box-shadow:0 8px 30px rgba(255,136,9,0.35);
   }
@@ -277,7 +278,7 @@
     .location-card{ grid-template-columns:1fr; }
     .loc-block + .loc-block{ border-left:none; border-top:1px solid var(--line); }
     section{ padding:56px 0; }
-    .sticky-cta{ bottom:16px; left:16px; right:16px; justify-content:center; }
+    .sticky-cta{ bottom:16px; left:16px; right:16px; justify-content:center; padding:20px 22px; }
     body{ padding-bottom:78px; }
     .header-inner img.logo-img{ height:44px; }
   }
